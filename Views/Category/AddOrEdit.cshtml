@@ -1,7 +1,7 @@
 ﻿@model MoneyTrack.Models.Category
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["PageTitle"] = Model.CategoryId ==0? "Criar nova catgoria" : "Editar categoria";
 }
 
 <div class="row justify-content-center">

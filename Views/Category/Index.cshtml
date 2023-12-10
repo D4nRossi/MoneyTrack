@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<MoneyTrack.Models.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["PageTitle"] = "Categorias";
+    ViewData["PageActionText"] = "+ Nova Categoria";
+    ViewData["PageActionUrl"] = "/Category/AddOrEdit";
 }
 
 <div class="row">
@@ -36,5 +38,11 @@
         <a class="btn btn-sm no-a-decoration" href="/Category/AddOrEdit/${CategoryId}">
             <i class="fa-solid fa-pen fa-lg"></i>    
         </a>
+        <form action="/Category/Delete/${CategoryId}" method="post">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-sm btn-link no-a-decoration" onclick="return confirm(&quot;Tem certeza que deseja deletar esses dados?&quot;)">
+                <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
+            </button>    
+        </form>
     </div>
 </script>
