@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTrack", "MoneyTrack.csproj", "{DE4573D8-163F-4978-93C5-5345B867CCC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyTrack", "MoneyTrack.csproj", "{8B4B2A73-A71A-4081-9BA0-1FD22E8C95AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE4573D8-163F-4978-93C5-5345B867CCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE4573D8-163F-4978-93C5-5345B867CCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE4573D8-163F-4978-93C5-5345B867CCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE4573D8-163F-4978-93C5-5345B867CCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4B2A73-A71A-4081-9BA0-1FD22E8C95AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4B2A73-A71A-4081-9BA0-1FD22E8C95AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4B2A73-A71A-4081-9BA0-1FD22E8C95AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4B2A73-A71A-4081-9BA0-1FD22E8C95AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

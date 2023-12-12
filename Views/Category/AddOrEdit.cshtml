@@ -1,12 +1,12 @@
 ﻿@model MoneyTrack.Models.Category
 
 @{
-    ViewData["PageTitle"] = Model.CategoryId ==0? "Criar nova catgoria" : "Editar categoria";
+    ViewData["PageTitle"] = Model.CategoryId ==0? "Criar Nova Catgoria" : "Editar Categoria";
 }
 
 <div class="row justify-content-center">
     <div class="col-md-7">
-        <div class="widget p-5">
+        <div class="widget p-5" style="background-color:#212b36">
             <form asp-action="AddOrEdit">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" name="CategoryId" value="@Model.CategoryId" />
@@ -21,7 +21,7 @@
                 </div>
                 <div class="mb-3">
                     <ejs-textbox id="title" placeholder="Title" ejs-for="@Model.Title" floatLabelType="Always"></ejs-textbox>
-                    <span asp-validation-for="Title" class="text-danger"></span>
+                    <span asp-validation-for="Title" class="text-danger fs-6"></span>
                 </div>
                 <div class="mb-3">
                     <ejs-textbox id="icon" placeholder="Icon" ejs-for="@Model.Icon" floatLabelType="Always"></ejs-textbox>
@@ -33,14 +33,14 @@
         </div>
     </div>
     <div class="col-md-5">
-        <div class="widget h-100 d-flex justify-content-center align-items-center" style="background-color:#212b36">
+        <div class="widget h-100 d-flex justify-content-center align-items-center">
             <i class="fa-solid fa-shapes fa-2xl"></i>
         </div>
     </div>
 </div>
 
-@section Scripts {
+@* @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-}
+} *@
