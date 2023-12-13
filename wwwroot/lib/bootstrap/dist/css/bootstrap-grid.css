@@ -545,7 +545,7 @@
 
   .col-md-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: auto;
   }
 
   .col-md-5 {
@@ -1122,10 +1122,13 @@
     --bs-gutter-y: 3rem;
   }
 }
+
+
 @media (min-width: 1400px) {
   .col-xxl {
     flex: 1 0 0%;
   }
+
 
   .row-cols-xxl-auto > * {
     flex: 0 0 auto;
